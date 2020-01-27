@@ -2,7 +2,7 @@
 
 html {
   margin-top: 3.5rem;
-  font-family: "flottflott";
+  font-family: flottflott;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -203,7 +203,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: flottflott;
   box-sizing: border-box;
   overflow-y: scroll;
 }
