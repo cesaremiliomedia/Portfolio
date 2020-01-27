@@ -38,7 +38,6 @@ module.exports = {
       options: {
         custom: {
           families: ["flottflott"],
-          urls: ["/fonts/fonts.css"],
         },
       },
     },
