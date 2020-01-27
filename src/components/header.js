@@ -11,7 +11,6 @@ export default () => (
       <link
         href="//db.onlinewebfonts.com/c/8bd07a0c3254bd96405a228a802b2083?family=flottflott"
         rel="stylesheet"
-        type="text/css"
       />
 
       <h1>Cesar Emilio Media</h1>
