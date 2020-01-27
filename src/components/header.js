@@ -4,6 +4,11 @@ import { Link } from "gatsby"
 export default () => (
   <header>
     <div>
+      <link
+        href="https://fonts.googleapis.com/css?family=Bangers&display=swap"
+        rel="stylesheet"
+      />
+
       <h1>Cesar Emilio Media</h1>
       <nav>
         <ul>
