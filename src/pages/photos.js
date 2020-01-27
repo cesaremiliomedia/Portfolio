@@ -15,7 +15,7 @@ const ImagePage = ({ data }) => (
     >
       {props => (
         <div style={props}>
-          <Lightbox images={data.allImageSharp.edges} />d
+          <Lightbox images={data.allImageSharp.edges} />
         </div>
       )}
     </Spring>
