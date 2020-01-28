@@ -2,7 +2,7 @@
 
 html {
   margin-top: 3.5rem;
-  font-family: "flottflott", cursive;
+  font-family: "bangers", cursive;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -245,7 +245,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 0px;
   color: inherit;
-  font-family: flottflott;
+  font-family: "bangers", cursive;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
