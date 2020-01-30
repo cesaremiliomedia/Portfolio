@@ -180,7 +180,7 @@ const LightboxContent = styled.div`
   overflow: scroll;
   object-fit: contain;
   @media (max-width: 400px) {
-    top: 20%;
+    top: 5%;
   }
 `
 
