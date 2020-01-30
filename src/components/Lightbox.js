@@ -115,27 +115,30 @@ const StyledImg = styled(Img)`
   z-index: -1;
   height: 100%; // or whatever
   & > img {
-    object-fit: cover !important; // or whatever
+    object-fit: contain !important; // or whatever
     object-position: 0% 0% !important; // or whatever
   }
 `
 
 const Gallery = styled.div`
-  display: grid;
+display: grid;
 
-  grid-template-columns: repeat(2, 2fr);
-  overflow: hidden;
-  }
-  @media (min-width: 900px) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  @media (min-width: 1100px) {
-    grid-template-columns: repeat(5, 1fr);
-  }
-  grid-gap: 0px;
-  .gatsby-image-outer-wrapper {
-    height: 100%;
-  }
+grid-template-columns: repeat(2, 1fr);
+overflow: hidden;
+}
+@media (min-width: 900px) {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (min-width: 1100px) {
+  grid-template-columns: repeat(5, 1fr);
+}
+grid-gap: 0px;
+.gatsby-image-outer-wrapper {
+  margin: auto;
+  
+  width: 100%;
+  height: auto;
+}
 `
 
 const GalleryItem = styled.div`
@@ -152,6 +155,8 @@ const Button = styled.button`
 
 const LightboxModal = styled.div`
   position: fixed;
+  margin: auto;
+  width: 100%;
   top: 0;
   left: 0;
   clear: both;
@@ -166,10 +171,17 @@ const LightboxModal = styled.div`
   visibility: ${props => (props.visible ? "visible" : "hidden")};
 `
 const LightboxContent = styled.div`
-  max-width: 1000px;
   width: 100%;
+  max-width: 900px;
+  height: 100%;
+  padding: 5px;
+
   position: fixed;
-  left: 25vw;
+  overflow: scroll;
+  object-fit: contain;
+  @media (max-width: 400px) {
+    top: 20%;
+  }
 `
 
 const Controls = styled.div`
@@ -182,7 +194,6 @@ const LeftRight = styled.div`
     margin-right: 10px;
   }
 `
-
 Lightbox.propTypes = {
   images: PropTypes.array.isRequired,
 }
