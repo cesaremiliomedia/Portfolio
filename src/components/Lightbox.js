@@ -121,24 +121,24 @@ const StyledImg = styled(Img)`
 `
 
 const Gallery = styled.div`
-display: grid;
+  display: grid;
 
-grid-template-columns: repeat(2, 1fr);
-overflow: hidden;
-}
-@media (min-width: 900px) {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-@media (min-width: 1100px) {
-  grid-template-columns: repeat(5, 1fr);
-}
-grid-gap: 0px;
-.gatsby-image-outer-wrapper {
-  margin: auto;
-  
-  width: 100%;
-  height: auto;
-}
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+  }
+  @media (min-width: 900px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (min-width: 1100px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  grid-gap: 0px;
+  .gatsby-image-outer-wrapper {
+    margin: auto;
+    
+    width: 100%;
+    height: auto;
+  }
 `
 
 const GalleryItem = styled.div`
@@ -194,6 +194,7 @@ const LeftRight = styled.div`
     margin-right: 10px;
   }
 `
+
 Lightbox.propTypes = {
   images: PropTypes.array.isRequired,
 }
