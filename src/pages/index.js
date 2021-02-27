@@ -16,7 +16,7 @@ const IndexPage = () => (
       }}
     >
       <div></div>
-      <h1>This site was built using React with Gatsby.</h1>
+      <h1>This site was built using React with Gatsbys.</h1>
       <p>
         All Photos and videos were shot and edited by myself. I decided to use
         Gatsby to showcase my work because of the speed this framework offers.
