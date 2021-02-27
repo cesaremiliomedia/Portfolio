@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "flottflott";
+  src: url("http://db.onlinewebfonts.com/t/8bd07a0c3254bd96405a228a802b2083.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/8bd07a0c3254bd96405a228a802b2083.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("http://db.onlinewebfonts.com/t/8bd07a0c3254bd96405a228a802b2083.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/8bd07a0c3254bd96405a228a802b2083.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/8bd07a0c3254bd96405a228a802b2083.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("http://db.onlinewebfonts.com/t/8bd07a0c3254bd96405a228a802b2083.svg#flottflott")
+      format("svg"); /* iOS 4.1- */
+}
